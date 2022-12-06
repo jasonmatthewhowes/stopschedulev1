@@ -1,0 +1,24 @@
+.home--main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.title--main {
+    display: flex;
+    margin-block-end: 0;
+    align-items: center;
+    flex-direction: column;
+
+    
+  }
+
+  .home--button {
+    display: flex;
+    
+
+  }
+
