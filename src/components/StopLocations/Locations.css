@@ -1,0 +1,66 @@
+.locationscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.homebutton {
+    width: 15vw;
+    height: 5vh;
+    border-radius: 14px;
+    margin: 10px 6px;
+    display: flex;
+    border: 2px solid #e42a2a;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #f5f5f5;
+    background-color: #e42a2a;
+}
+
+.locationboxes {
+    
+    width: 80%;
+    height: 80px;
+    border-radius: 14px;
+    margin: 10px 6px;
+    display: flex;
+    border: 2px solid #e42a2a;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #e42a2a;
+    background-color: #f5f5f5;
+    flex-direction: column;
+
+}
+
+.form-group {
+    width: 80%;
+}
+
+.form-control {
+    width: 90%;
+}
+
+.locationform {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.locationForm_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttonbox {
+    display: flex;
+
+}

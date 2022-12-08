@@ -7,7 +7,8 @@ export const NavBar = () => {
     return (
         <ul className="navbar">
             <li className="navbar__item active">
-                <Link className="navbar__link" to="/tickets">Tickets</Link>
+                <a className="navbar__link" href="https://www.google.com/maps/" target="_blank" >Google Maps
+            </a>
             </li>
             {
                 localStorage.getItem("honey_user")

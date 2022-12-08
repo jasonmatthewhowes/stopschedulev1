@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Jason Howes",
+      "email": "jasonmatthewhowes@gmail.com",
+      "homeLocationId": 1,
+      "workLocationId": 2,
+      "schoolLocationId": 3,
+      "password": "farts"
+    },
+    {
+      "id": 2,
+      "fullName": "Jennifer Trail",
+      "email": "jen.trail@gmail.com",
+      "homeLocationId": 1,
+      "workLocationId": 4,
+      "schoolLocationId": 5,
+      "password": "farts"
+    },
+    {
+      "id": 3,
+      "fullName": "Tootser McTrains",
+      "email": "toot@tooter.com",
+      "homeLocationId": 6,
+      "workLocationId": 7,
+      "schoolLocationId": 8,
+      "password": "farts"
+    },
+    {
+      "id": 4,
+      "fullName": "Hammy Sammich",
+      "email": "hammy@dudes.com",
+      "homeLocationId": "",
+      "workLocationId": "",
+      "schoolLocationId": "",
+      "password": "farts"
+    },
+    {
+      "id": 5,
+      "fullName": "Captain Doogerville",
+      "email": "stickydudes@gmail.com",
+      "homeLocationId": "",
+      "workLocationId": "",
+      "schoolLocationId": "",
+      "password": "farts"
+    }
+  ],
+  "stops": [
+    {
+      "id": 1,
+      "userId": 1,
+      "locationId": 4,
+      "stopTimestamp": 1670354090.559,
+      "timerSeconds": 985,
+      "notes": "dooky doo doo doo"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "locationId": 3,
+      "stopTimestamp": 1670355000.559,
+      "timerSeconds": 1200,
+      "notes": "had to stop to pee at the train"
+    },
+    {
+      "userId": 1,
+      "locationId": 2,
+      "stopTimestamp": 1670356160.437,
+      "timerSeconds": 8420,
+      "notes": "Checking first post for project",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "locationId": 2,
+      "stopTimestamp": 1670356384.881,
+      "timerSeconds": 11060,
+      "notes": "Testing navigate part",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "locationId": 1,
+      "stopTimestamp": 1670361658.68,
+      "timerSeconds": 12500,
+      "notes": "DOOOGERZZZZZ",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "locationId": 4,
+      "stopTimestamp": 1670363023.162,
+      "timerSeconds": 187280,
+      "notes": "Got stopped by a Coke train full of corn syrup and diabetes",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "locationId": 4,
+      "stopTimestamp": 1670433475.924,
+      "timerSeconds": 4770,
+      "notes": "farts",
+      "id": 7
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Waycross Drive",
+      "lattitude": 36.127079,
+      "longitude": -86.761202,
+      "address": "510 Waycross Drive",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": 37211,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Corner Music",
+      "lattitude": 36.122681,
+      "longitude": -86.790087,
+      "address": "2705 12th Avenue South",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": 37203,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "NSS",
+      "lattitude": 36.127621,
+      "longitude": -86.725407,
+      "address": "301 Plus Park Blvd #300,",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": 37217,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "name": "Craighead and 65 East",
+      "lattitude": 36.126431,
+      "longitude": -86.771853,
+      "address": "",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": 37217,
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "name": "Berry Road Post Office",
+      "lattitude": 36.119394,
+      "longitude": -86.772133,
+      "address": "",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": 37211,
+      "userId": 1
+    },
+    {
+      "name": "Nolensville and Craighead",
+      "lattitude": "36.133635 ",
+      "longitude": "-86.758773",
+      "address": "",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37203",
+      "userId": 1,
+      "id": 6
+    }
+  ]
+}
