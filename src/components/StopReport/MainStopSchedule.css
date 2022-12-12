@@ -1,0 +1,4 @@
+.locationselectorgroup {
+    display: flex;
+    flex-direction: column;
+}
