@@ -1,5 +1,6 @@
 .h1, h1 {
     font-size: 2.5rem;
+    font-family: Arial, sans-serif;
 }
 
 fieldset {
@@ -7,32 +8,48 @@ fieldset {
     padding: 1rem 0;
     margin: 0;
     border: 0;
+    font-family: Arial, sans-serif;
 }
 
 .form--login {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
-.form--login > fieldset > input[type="email"] {
+.form--login > fieldset > input[type="email"]{
 
     display: flex;
-    width: 45em;
+    width: 25em;
     align-items: center;
     justify-content: center;
+    font-family: Arial, sans-serif;
+    align-content: center;
+    
+}
+.form--login > fieldset > input[type="password"]{
 
+    display: flex;
+    width: 25em;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    align-content: center;
     
 }
 
 .label--login {
     width: 45rem;
     display: inline-block;
+    font-family: Arial, sans-serif;
 }
 
 .form-control {
     display: flex;
-    width: 45rem;
+    width: 30rem;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -46,12 +63,18 @@ fieldset {
     -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     align-items: center;
+    font-family: Arial, sans-serif;
 
 }
 
 .container--login {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-  
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    align-content: center;
+    
 }
 
 .form--login {
@@ -62,10 +85,25 @@ fieldset {
     background-color: hsla(0,0%,100%,0.40);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
 }
 
 .button--close {
     position: relative;
     bottom: -2rem;
+    font-family: Arial, sans-serif;
 }
 
+input {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+fieldset {
+    align-items: center;
+    justify-content: center;
+
+}

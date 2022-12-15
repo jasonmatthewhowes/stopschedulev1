@@ -50,7 +50,7 @@ export const Login = () => {
                     </fieldset>
                     <fieldset>
                         <label htmlFor="inputPassword"> Password </label>
-                        <input type="text"
+                        <input type="password"
                             value={passwordInput}
                             onChange={evt => setPasswordInput(evt.target.value)}
                             className="form-control"

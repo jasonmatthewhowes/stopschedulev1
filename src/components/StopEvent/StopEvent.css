@@ -1,0 +1,23 @@
+.createstophome {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.locationButton {
+    border-radius: 14px;
+    margin: 10px 6px;
+    display: flex;
+    border: 2px solid #e42a2a;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #f5f5f5;
+    background-color: #e42a2a;
+}
+
+
+.form-control {
+    border: 2px solid #e42a2a;
+    font-family: Arial, sans-serif;
+}

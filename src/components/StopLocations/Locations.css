@@ -1,0 +1,130 @@
+.mainlayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.testcenter {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.locationscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.homebutton {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 14px;
+    margin: 10px 6px;
+    display: flex;
+    border: 2px solid #e42a2a;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #f5f5f5;
+    background-color: #e42a2a;
+    text-align: center;
+}
+
+.locationboxes {
+    
+    width: 90%;
+    height: 100px;
+    border-radius: 14px;
+    margin: 10px 6px;
+    display: flex;
+    border: 2px solid #e42a2a;
+    justify-content: space-around;
+    align-items: center ;
+    cursor: pointer;
+    color: #e42a2a;
+    background-color: #f5f5f5;
+    flex-direction: row;
+
+}
+
+.form-group {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.form-control {
+    width: 250px;
+}
+
+.locationform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.locationForm_title{
+   font-family: Arial, sans-serif
+}
+
+.animatehtwo 
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: #e42a2a;
+    outline: none;
+    text-align: center;
+  }
+  
+  .animatehtwo:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+  }
+  
+
+.buttonbox {
+    display: flex;
+
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.insidebuttons {
+    width: 13vw;
+    height: 5vh;
+    border-radius: 14px;
+    margin: 10px 6px;
+    border: 2px solid #e42a2a;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #f5f5f5;
+    background-color: #e42a2a;
+    text-align: center;
+}
+.navigatebuttons {
+    display: flex;
+
+}

@@ -2,11 +2,13 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: left;
+    font-family: Arial, sans-serif;
 }
 
 .navbar__item {
     flex-basis: 20%;
     list-style-type: none;
+    font-family: Arial, sans-serif;
 }
 
 .navbar__logout {

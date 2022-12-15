@@ -1,0 +1,12 @@
+.stop-watch{
+	height: 100px;
+	width: 48vw;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Arial, sans-serif;
+}
+label {
+	color: #e42a2a;
+}
